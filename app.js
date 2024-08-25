@@ -11,7 +11,7 @@ function toggleNav() {
 btn.addEventListener("click", toggleNav);
 
 mobileNav.addEventListener("click", ()=>{
-    if (element.classList.contains('mobile-nav')){
+    if (smallNav.classList.contains('mobile-nav')){
         toggleNav();
     }
 });
